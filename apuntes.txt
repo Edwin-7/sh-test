@@ -1,0 +1,41 @@
+
+
+git Init ## Inicializa Repositorio
+git add <file> ## Añadir archivo
+git add * ## Añadir todos los archivos
+git add --all ## Forzar añadir todos los archivos
+git remote add origin <server> ## Añadir un repositorio remoto  
+git remote --v ## Saber el repositorio remoto 
+git branch ## nos muestra la lista de ramas 
+git git branch nombre_de_la_rama ## para crear un rama de manera local
+git checkout nombre_de_la_rama ## sirve para posicionarnos en una arama o un commit 
+git checkout -b nombre_de_la_rama ## nos sirve para crear una rama y posicionarnos en ella 
+git branch -m nombre_viejo_de_la_rama nombre_nuevo_de_la_rama ## Cambiar el nombre de la rama local
+git push origin :nombre_viejo_de_la_rama nombre_nuevo_de_la_rama ## renombrar la rama remota
+git branch -d nombre_de_la_rama ## para eliminar una rama
+git log --oneline --decorate ## para ver elestado actual del commit 
+git log --oneline --decorate --all  ## para ver elestado actual todos los commit
+ --  ## para ver elestado actual todos los commit con identacion
+
+git merge nombre_de_la_rama ## para fusionar los cambios (Debemos de estar cituados en la rama destino los mas comun es en la arama master)
+
+git diff <archivo> ## muestra los cambios antes de subirlos
+
+git checkout . ## rebierte un cambio
+
+git reset archivo ## para remover un archivo el cual no queremos subir
+
+git config alias.personalisado "status" ## para crear alias de los comandos
+
+git commit --amend -m "Modificar mesaje" ## para corregir o volver a escribir el commit
+
+git rm nombredelarchivo.html ## para borra un archivo
+
+git reset --soft id_32ds2d2 ## para ver un comit en especifico
+
+git reset --hard id_32ds2d2 ## para volver a una vrsion de comit especifica
+
+git branch -d nombre_rama ## para eliminarla
+
+\git branch -a ## mostrar las ramas remotas
+
